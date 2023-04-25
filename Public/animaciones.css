@@ -1,0 +1,40 @@
+#circle1{
+
+    animation:anim1 5s linear forwards;
+}
+#circle2{
+
+    animation:anim2 5s linear forwards;
+}
+#circle3{
+
+    animation:anim3 5s linear forwards;
+}
+
+@keyframes anim1{
+    0%{
+        stroke-dashoffset: 472;
+    }
+    100%{
+        stroke-dashoffset: 94;
+    }
+
+}
+@keyframes anim2{
+    0%{
+        stroke-dashoffset: 472;
+    }
+    100%{
+        stroke-dashoffset: 118;
+    }
+
+}
+@keyframes anim3{
+    0%{
+        stroke-dashoffset: 472;
+    }
+    100%{
+        stroke-dashoffset: 60;
+    }
+
+}

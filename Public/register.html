@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="estilos.css">        
+        <script defer type="module" src="/Public/register.js"></script>
+        
+        
+        <title>Registro</title>
+    </head>
+    <body class="bg-gray-100">
+            <div class="container py-8 mx-auto">
+                <h1 class="mb-6 text-2xl font-bold text-center">Registration</h1>
+            <div class="w-full max-w-sm p-8 mx-auto bg-white rounded-md shadow-md">
+
+                <form>
+                    <div class="mb-4">
+                        <label class="block mb-2 text-sm font-bold text-gray-700" for="name" >Name</label>
+                        <input class="w-full px-3 py-2 border border-gray-300 rounded-md focus:outline-none focus:border-indigo-500"
+                        type="text" id="name" name="name" required placeholder="John Doe">
+                    </div>
+                    <div class="mb-4">
+                        <label class="block mb-2 text-sm font-bold text-gray-700" for="email" >Email</label>
+                        <input class="w-full px-3 py-2 border border-gray-300 rounded-md focus:outline-none focus:border-indigo-500"
+                        type="email" id="email" name="email" required placeholder="john@example.com">
+                    </div>
+                    <div class="mb-4">
+                        <label class="block mb-2 text-sm font-bold text-gray-700" for="password">Password</label>
+                        <input class="w-full px-3 py-2 border border-gray-300 rounded-md focus:outline-none focus:border-indigo-500"
+                        type="password" id="password" required name="password" placeholder="********">
+                    </div>
+                    <div class="mb-4">
+                        <label class="block mb-2 text-sm font-bold text-gray-700" for="confirm-password">Confirm Password</label>
+                        <input class="w-full px-3 py-2 border border-gray-300 rounded-md focus:outline-none focus:border-indigo-500"
+                        type="password" id="confirm-password" required name="confirm-password" placeholder="********">
+                    </div>           
+                    <input id="btnRegister" type="button" value="Register"  class="w-full px-4 py-2 text-sm font-bold text-white transition duration-300 bg-indigo-500 rounded-md hover:bg-indigo-600">
+
+                </form>            
+            </div>
+            </div>
+        
+    </body>
+</html>
