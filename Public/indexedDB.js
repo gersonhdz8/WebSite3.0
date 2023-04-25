@@ -49,7 +49,7 @@ export const obtenerDatos = (email,password) => {
                 alert("Welcome back " + nombre)
             }
             else{
-                alert("Contraseña incorrecta")
+                alert("Contraseña incorrecta, por favor verifique.")
             }
             
             console.log(nombre,passwordReg) 
